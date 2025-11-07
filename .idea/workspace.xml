@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ac7ef23-903c-4b11-9070-8c8489b8295e" name="Changes" comment="post migration commit">
+    <list default="true" id="9ac7ef23-903c-4b11-9070-8c8489b8295e" name="Changes" comment="posts added to admin panel">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762530830865</updated>
-      <workItem from="1762530831876" duration="3045000" />
+      <workItem from="1762530831876" duration="3508000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -114,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762535085803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="posts added to admin panel">
+      <option name="closed" value="true" />
+      <created>1762535420128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762535420128</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
     <MESSAGE value="startapp commit" />
     <MESSAGE value="migration commit" />
     <MESSAGE value="post migration commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="post migration commit" />
+    <MESSAGE value="posts added to admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="posts added to admin panel" />
   </component>
 </project>
