@@ -2,7 +2,17 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import socket
 
+# Примусово використовуємо IPv4, бо IPv6 викликає Errno 101
+original_getaddrinfo = socket.getaddrinfo
+
+def ipv4_only_getaddrinfo(*args, **kwargs):
+    # Фільтруємо результати, залишаючи тільки IPv4 (AF_INET)
+    responses = original_getaddrinfo(*args, **kwargs)
+    return [r for r in responses if r[0] == socket.AF_INET]
+
+socket.getaddrinfo = ipv4_only_getaddrinfo
 
 def main():
     """Run administrative tasks."""
